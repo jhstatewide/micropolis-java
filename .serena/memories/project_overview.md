@@ -1,0 +1,1 @@
+MicropolisJ is a Java port of Micropolis (classic city simulation). The app is desktop GUI-based (Swing/AWT). Main entrypoint is `micropolisj.Main` which opens `micropolisj.gui.MainWindow` and starts a new city. Build/distribution is managed with Apache Ant (`build.xml`). Assets and localization resources are bundled from `graphics`, `tiles`, `resources`, and `strings`.

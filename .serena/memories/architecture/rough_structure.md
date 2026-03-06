@@ -1,0 +1,13 @@
+Top-level layout:
+- `src/micropolisj`: Java sources
+  - `build_tool`: build-time utilities (e.g., tile composition)
+  - `engine`: simulation/game logic
+  - `graphics`: rendering/graphics helpers
+  - `gui`: Swing UI (main window, dialogs, UI controls)
+  - `util`: utility classes (including localization tooling)
+  - root package files include `Main.java`, `XML_Helper.java`
+- `graphics`, `tiles`: graphical source assets and tile metadata
+- `resources`: packaged runtime resources/icons
+- `strings`: localization string files (UTF-8 source plus generated/native2ascii output)
+- `build.xml`: canonical build script
+- `README`, `INSTALL`, `HACKING`: project docs and contributor notes.
